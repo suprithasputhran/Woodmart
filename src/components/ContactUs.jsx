@@ -56,8 +56,8 @@ function ContactUs() {
             </div>
           </div>
           <div className='w-[0.0625rem] md:my-1 my-20 h-48 sm:hidden md:hidden bg-white'></div>
-          <form name="contact" method="post" data-netlify="true" className='my-20 md:my-1 sm:my-1 flex flex-col items-start sm:items-center md:items-center justify-center gap-4'>
-            <input type="hidden" name="form-name" value="contact" />
+          <form name="contact" method="POST" netlify className='my-20 md:my-1 sm:my-1 flex flex-col items-start sm:items-center md:items-center justify-center gap-4'>
+
             <input type="text" name="name" className='sm:w-56 w-72 h-11 px-5 py-4 text-sm bg-transparent  font-Lexend  outline-none border-2 border-white border-opacity-30 placeholder:text-white placeholder:opacity-75' placeholder='Your name' required />
             <input type="tel" name="phone number" className='my-3 sm:w-56 w-72 h-11 px-5 py-3 bg-transparent text-sm font-Lexend border-2 outline-none border-white border-opacity-30 placeholder:text-white placeholder:opacity-75' placeholder='Your phone number' required />
             <button type="submit" className='text-xs font-semibold bg-white text-black sm:py-1 sm:px-4 py-3 px-6 text-opacity-80 hover:bg-opacity-80 font-Lexend'>Call Me Back</button>
